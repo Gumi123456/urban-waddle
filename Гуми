@@ -1,0 +1,41 @@
+There is no direct programming code available to calculate the square of a planet, as planets do not have a square value. However, you can write a program to calculate the square of a number, which can be used to represent the area of a planetary orbit. Here's a combined solution using C and Python programming languages based on the provided sources:
+
+**C Program to Calculate Square of a Number**
+
+```c
+/* C Program to Calculate Square of a Number */
+#include<stdio.h>
+
+int Calculate_Square (int Number);
+
+int main() {
+    int number, Square;
+    printf(" \n Please enter a number: ");
+    scanf("%d", &number);
+    Square = Calculate_Square(number);
+    printf("The square of %d is %d.\n", number, Square);
+    return 0;
+}
+
+int Calculate_Square (int Number) {
+    return Number * Number;
+}
+```
+
+**Python Program to Calculate Square of a Given Number**
+
+```python
+def calculate_square(number):
+    return number * number
+
+number = int(input("Please enter a number: "))
+square = calculate_square(number)
+print(f"The square of {number} is {square}.")
+```
+
+These programs allow you to input a number and then calculate its square. You can use this concept to represent the area of a planetary orbit by squaring the distance from the planet to the sun. However, remember that planets do not have a square value themselves.
+
+Source 1: [C Program to Calculate Square of a Number](https://www.tutorialgateway.org/c-program-to-calculate-square-of-a-number/)
+Source 2: [Computing planetary positions - a tutorial with worked examples](https://stjarnhimlen.se/comp/tutorial.html)
+Source 3: [Python program to calculate square of a given number - GeeksforGeeks](https://www.geeksforgeeks.org/python-profram-to-calculate-square-of-a-given-number/)
+Source 4: [C Program: Find the square of any number - w3resource](https://www.w3resource.com/c-programming-exercises/function/c-function-exercise-2.php)
